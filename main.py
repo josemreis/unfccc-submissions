@@ -73,7 +73,7 @@ def visit_main_page(driver: webdriver.Firefox) -> None:
     )
 
 
-def find_text_element(elem: webdriver.Firefox, xpath: str):
+def find_text_element(elem, xpath: str) -> str:
     """error handling friendly find_element().text"""
     try:
         return elem.find_element(
@@ -184,7 +184,6 @@ def main() -> None:
     visit_main_page(driver)
     submissions_data = parse_submissions(driver)
     export(submissions_data)
-    time.sleep(3)
     kill_webdriver(driver)
 
 
