@@ -1,4 +1,5 @@
 import time
+from datetime import datetime
 from typing import Optional
 import os
 import json
@@ -20,8 +21,10 @@ RELEVANT_ENTITY_TYPES = [
     "UN",
     "Observer State",
 ]
-HEADLESS = True
-LOG_PATH = os.devnull # this will supress any log file, for an actuall log file replace it with its path
+HEADLESS = False
+LOG_PATH = (
+    os.devnull
+)  # this will supress any log file, for an actuall log file replace it with its path
 
 
 def deploy_firefox(
@@ -38,7 +41,7 @@ def deploy_firefox(
     driver = webdriver.Firefox(
         executable_path=path_to_geckodriver,
         options=firefox_ops,
-        service_log_path=os.devnull,
+        service_log_path=LOG_PATH,
         **kwargs
     )
     return driver
@@ -72,14 +75,16 @@ def visit_main_page(driver: webdriver.Firefox) -> None:
     )
 
 
-def find_text_element(elem: webdriver.remote.webelement.WebElement, xpath: str) -> Optional[str]:
-    """error handling friendly find_element().text"""
+def find_text_element(
+    elem: webdriver.remote.webelement.WebElement, xpath: str
+) -> Optional[str]:
+    """error handling friendly find_element().text so that it returns a None object if webelement is missing"""
     try:
         return elem.find_element(
             By.XPATH,
             xpath,
         ).text
-    except NoSuchElementException:  
+    except NoSuchElementException:
         pass
 
 
@@ -150,9 +155,9 @@ def _parse_submissions(driver: webdriver.Firefox) -> None:
 
 def parse_submissions(driver: webdriver.Firefox) -> None:
     """Wrapper around _parse_submissions for pagination"""
-    out = []
+    subs_container = []
     while True:
-        out.extend(_parse_submissions(driver))
+        subs_container.extend(_parse_submissions(driver))
         try:
             # next page
             nxt = driver.find_element(
@@ -168,7 +173,13 @@ def parse_submissions(driver: webdriver.Firefox) -> None:
         )
         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
         time.sleep(3)
-    return out
+    # add the query metadata and return
+    return {
+        "data_source": SUBMISSIONS_URL,
+        "collected_at": datetime.now().strftime("%d-%m-%Y %H:%M:%S"),
+        "submissions_data": subs_container,
+    }
+
 
 def export(submissions_data: list) -> None:
     """write to data dir"""
@@ -179,7 +190,7 @@ def export(submissions_data: list) -> None:
 
 
 def main() -> None:
-    driver = deploy_firefox(log_path=LOG_PATH)
+    driver = deploy_firefox()
     visit_main_page(driver)
     submissions_data = parse_submissions(driver)
     export(submissions_data)
