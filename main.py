@@ -1,6 +1,5 @@
 import time
-from pathlib import Path
-from typing import Callable, Optional
+from typing import Optional
 import os
 import json
 from selenium import webdriver
@@ -22,6 +21,7 @@ RELEVANT_ENTITY_TYPES = [
     "Observer State",
 ]
 HEADLESS = True
+LOG_PATH = os.devnull # this will supress any log file, for an actuall log file replace it with its path
 
 
 def deploy_firefox(
@@ -72,7 +72,7 @@ def visit_main_page(driver: webdriver.Firefox) -> None:
     )
 
 
-def find_text_element(elem, xpath: str) -> str:
+def find_text_element(elem: webdriver.remote.webelement.WebElement, xpath: str) -> Optional[str]:
     """error handling friendly find_element().text"""
     try:
         return elem.find_element(
@@ -179,7 +179,7 @@ def export(submissions_data: list) -> None:
 
 
 def main() -> None:
-    driver = deploy_firefox(log_path=os.path.devnull)
+    driver = deploy_firefox(log_path=LOG_PATH)
     visit_main_page(driver)
     submissions_data = parse_submissions(driver)
     export(submissions_data)
