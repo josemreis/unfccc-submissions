@@ -33,7 +33,6 @@ def deploy_firefox(
     launches a firefox instance using the same browser version as in OpenWPM
     """
     firefox_ops = Options()
-    # run headlesss ?
     if headless:
         firefox_ops.add_argument("-headless")
     driver = webdriver.Firefox(
@@ -80,7 +79,7 @@ def find_text_element(elem, xpath: str) -> str:
             By.XPATH,
             xpath,
         ).text
-    except NoSuchElementException:  # spelling error making this code not work as expected
+    except NoSuchElementException:  
         pass
 
 
