@@ -33,7 +33,7 @@ def deploy_firefox(
     **kwargs
 ) -> webdriver.Firefox:
     """
-    launches a firefox instance using the same browser version as in OpenWPM
+    launches a firefox browser instance
     """
     firefox_ops = Options()
     if headless:
@@ -54,7 +54,9 @@ def kill_webdriver(driver: webdriver.Firefox) -> None:
 
 
 def visit_main_page(driver: webdriver.Firefox) -> None:
-    """Visit the main page and open submissions panels"""
+    """
+    Visit the main page and open the submissions panels
+    """
     driver.get(SUBMISSIONS_URL)
     time.sleep(3)
     # # clear tags
@@ -78,7 +80,9 @@ def visit_main_page(driver: webdriver.Firefox) -> None:
 def find_text_element(
     elem: webdriver.remote.webelement.WebElement, xpath: str
 ) -> Optional[str]:
-    """error handling friendly find_element().text so that it returns a None object if webelement is missing"""
+    """
+    Error handling friendly find_element().text so that it returns a None object if webelement is missing
+    """
     try:
         return elem.find_element(
             By.XPATH,
@@ -154,7 +158,9 @@ def _parse_submissions(driver: webdriver.Firefox) -> None:
 
 
 def parse_submissions(driver: webdriver.Firefox) -> None:
-    """Wrapper around _parse_submissions for pagination"""
+    """
+    Wrapper around _parse_submissions for pagination
+    """
     subs_container = []
     while True:
         subs_container.extend(_parse_submissions(driver))
@@ -189,8 +195,8 @@ def export(submissions_data: list) -> None:
         json.dump(submissions_data, f, indent=4)
 
 
-def main() -> None:
-    driver = deploy_firefox()
+def main(**kwargs) -> None:
+    driver = deploy_firefox(**kwargs)
     visit_main_page(driver)
     submissions_data = parse_submissions(driver)
     export(submissions_data)
