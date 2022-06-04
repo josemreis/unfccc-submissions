@@ -157,7 +157,7 @@ def _parse_submissions(driver: webdriver.Firefox) -> None:
     return submission_list
 
 
-def parse_submissions(driver: webdriver.Firefox) -> None:
+def parse_submissions(driver: webdriver.Firefox) -> dict:
     """
     Wrapper around _parse_submissions for pagination
     """
