@@ -43,7 +43,7 @@ def main() -> None:
         with tarfile.open(geckodriver_path) as my_tarfile:
             my_tarfile.extractall("resources")
             my_tarfile.close
-            os.remove(geckodriver_path)
+        os.remove(geckodriver_path)
 
 
 if __name__ == "__main__":
