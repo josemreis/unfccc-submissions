@@ -3,6 +3,7 @@ from datetime import datetime
 from typing import Optional
 import os
 import json
+import re
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -12,6 +13,12 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 
 # constants
+DEBUG = True
+MIN_SUBMISSIONS_SANITY_CHECK = 486
+MAX_RETRIES = 3
+SHORT_SLEEP = 3
+LONG_SLEEP = 10
+DEFAULT_TIMEOUT = 20
 SUBMISSIONS_URL = "https://www4.unfccc.int/sites/submissionsstaging/Pages/Home.aspx"
 RELEVANT_ENTITY_TYPES = [
     "IGO",
@@ -54,28 +61,122 @@ def kill_webdriver(driver: webdriver.Firefox) -> None:
     driver.quit()
 
 
-def visit_main_page(driver: webdriver.Firefox) -> None:
+def minimum_of_submissions_sanity_check(
+    driver: webdriver.Firefox,
+    min_heuristic: int = MIN_SUBMISSIONS_SANITY_CHECK,
+) -> bool:
+    """
+    The web server loads varying numbers of docs some times. Refreshing it seems to help.
+    After several repetitions the constant MIN_SUBMISSIONS_SANITY_CHECK was the correct value in 07/06/2022.
+    If below this number, throw a False.
+    """
+    panel_titles = driver.find_elements(
+        By.XPATH, "//div[@class = 'panel-group']//a[@class = 'collapsed']"
+    )
+    doc_count = 0
+    for title in panel_titles:
+        n = re.search(r"(?<=\()[0-9]+(?=\))", title.text)
+        if n:
+            doc_count += int(n.group(0))
+        else:
+            return False
+    return doc_count >= min_heuristic
+
+
+def _visit_main_page(driver: webdriver.Firefox) -> None:
     """
     Visit the main page and open the submissions panels
     """
     driver.get(SUBMISSIONS_URL)
-    time.sleep(3)
-    # # clear tags
-    # tags_btn = driver.find_element(By.ID, "btnClearTags")
-    # tags_btn.click()
-    # wait for the panel button
-    element = WebDriverWait(driver, 20).until(
-        EC.element_to_be_clickable(
-            (By.XPATH, "//h4[@class = 'panel-title']/a[@class = 'collapsed']")
+    time.sleep(SHORT_SLEEP)
+    # clear tags
+    tags_btn = driver.find_element(By.ID, "btnClearTags")
+    tags_btn.click()
+    time.sleep(LONG_SLEEP)
+    WebDriverWait(driver, DEFAULT_TIMEOUT).until(
+        EC.presence_of_element_located(
+            (By.XPATH, "//div[@class = 'panel-group']//a[@class = 'collapsed']")
         )
     )
-    element.click()
+
+
+def visit_main_page(driver: webdriver.Firefox) -> None:
+    """Visit the main page and check if the number of documents displayed by the web-server passes doc count sanity check"""
+    _visit_main_page(driver)
+    # sanity check
+    i = 0
+    while not minimum_of_submissions_sanity_check(driver, MIN_SUBMISSIONS_SANITY_CHECK):
+        _visit_main_page(driver)
+        time.sleep(LONG_SLEEP)
+        i += 1
+        if i > MAX_RETRIES:
+            raise ValueError(
+                "Web server is loading a very small number of documents, data is not trust worthy"
+            )
+
+
+def _open_submission_panel(
+    driver: webdriver.Firefox, panel_button: webdriver.remote.webelement.WebElement,
+    debug: bool = DEBUG
+) -> None:
+    """
+    Open a submission panel. Note: both cannot be opened at the same time.
+    """
+    i = 0
+    while True:
+        try:
+            panel_button.click()
+            break
+        except Exception as e:
+            if debug:
+                print(e)
+            if i > DEFAULT_TIMEOUT:
+                raise ValueError(
+                    f"Submission panel buttons are not clickable. Timed out at {DEFAULT_TIMEOUT} secs."
+                )
+            else:
+                time.sleep(SHORT_SLEEP)
+                i += 1
     # wait for the panel to open
-    WebDriverWait(driver, 20).until(
+    WebDriverWait(driver, DEFAULT_TIMEOUT).until(
         EC.presence_of_element_located(
             (By.XPATH, "//div[@class = 'submissioncallarea']")
         )
     )
+
+
+def open_submission_panel(
+    driver: webdriver.Firefox,
+    panel_button: webdriver.remote.webelement.WebElement,
+    max_attempts: int = MAX_RETRIES,
+    debug: bool = DEBUG
+) -> None:
+    """wrapper around _open_submission_panel for cases in which the data is not loaded before a refresh (hacky solution...)"""
+    # check if the submissions were loaded
+    attempt = 0
+    while True:
+        try:
+            _open_submission_panel(driver, panel_button)
+            WebDriverWait(driver, SHORT_SLEEP).until(
+                EC.presence_of_element_located(
+                    (
+                        By.XPATH,
+                        "//div[@class = 'submissioncallarea']/div//div[@class = 'col-md-10 issue']",
+                    )
+                )
+            )
+            break
+        except Exception as e:
+            if debug:  
+                print(e)
+            if attempt < max_attempts:
+                visit_main_page(driver)
+                time.sleep(LONG_SLEEP)
+                attempt += 1
+            else:
+                raise ValueError(
+                    f"Submissions data was not loaded to the panel after clicking on it after {max_attempts} attempts."
+                )
 
 
 def find_text_element(
@@ -162,24 +263,30 @@ def parse_submissions(driver: webdriver.Firefox) -> dict:
     """
     Wrapper around _parse_submissions for pagination
     """
+    # Open the current and previous submissions panels sequentially
+    panel_buttons = driver.find_elements(
+        By.XPATH, "//div[@class = 'panel-group']//a[@class = 'collapsed']"
+    )
     subs_container = []
-    while True:
-        subs_container.extend(_parse_submissions(driver))
-        try:
-            # next page
-            nxt = driver.find_element(
-                By.XPATH, "//a[contains(@onclick, '.GoToNextPage()')]"
+    for panel_button in panel_buttons:
+        open_submission_panel(driver, panel_button)
+        while True:
+            subs_container.extend(_parse_submissions(driver))
+            try:
+                # next page
+                nxt = driver.find_element(
+                    By.XPATH, "//a[contains(@onclick, '.GoToNextPage()')]"
+                )
+                nxt.click()
+            except:
+                break
+            WebDriverWait(driver, DEFAULT_TIMEOUT).until(
+                EC.presence_of_element_located(
+                    (By.XPATH, "//div[@class = 'submissioncallarea']")
+                )
             )
-            nxt.click()
-        except:
-            break
-        WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located(
-                (By.XPATH, "//div[@class = 'submissioncallarea']")
-            )
-        )
-        driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-        time.sleep(3)
+            driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+            time.sleep(SHORT_SLEEP)
     # add the query metadata and return
     return {
         "data_source": SUBMISSIONS_URL,
