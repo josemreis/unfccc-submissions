@@ -3,6 +3,7 @@ from datetime import datetime
 from typing import Optional
 import os
 import json
+import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
@@ -187,19 +188,40 @@ def parse_submissions(driver: webdriver.Firefox) -> dict:
     }
 
 
-def export(submissions_data: list) -> None:
-    """write to data dir"""
-    if not os.path.isdir("data"):
-        os.mkdir("data")
-    with open("data/submissions_data.json", "w") as f:
+def write_to_json(submissions_data: list, data_dir: str = "data") -> None:
+    """write to data dir as json"""
+    with open(os.path.join(data_dir, "submissions_data.json"), "w") as f:
         json.dump(submissions_data, f, indent=4)
+
+
+def write_to_csv(submissions_data: list, data_dir: str = "data") -> None:
+    """write to data dir as csv"""
+    container = []
+    submissions_all = submissions_data.pop("submissions_data")
+    for issue in submissions_all:
+        if "submissions" in issue:
+            # add the data collection metadata
+            issue = {**issue, **submissions_data}
+            issue_specific_submissions = issue.pop("submissions")
+            for (
+                submission_entity_type,
+                submission_list,
+            ) in issue_specific_submissions.items():
+                for submission_metadata in submission_list:
+                    submission_metadata["entity_type"] = submission_entity_type
+                    container.append({**submission_metadata, **issue})
+    df = pd.DataFrame(container)
+    df.to_csv(os.path.join(data_dir, "submissions_data.csv"))
 
 
 def main(**kwargs) -> None:
     driver = deploy_firefox(**kwargs)
     visit_main_page(driver)
     submissions_data = parse_submissions(driver)
-    export(submissions_data)
+    if not os.path.isdir("data"):
+        os.mkdir("data")
+    write_to_json(submissions_data, data_dir="data")
+    write_to_csv(submissions_data, data_dir="data")
     kill_webdriver(driver)
 
 

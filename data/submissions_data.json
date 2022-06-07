@@ -1,45 +1,7 @@
 {
     "data_source": "https://www4.unfccc.int/sites/submissionsstaging/Pages/Home.aspx",
-    "collected_at": "03-06-2022 22:48:19",
+    "collected_at": "07-06-2022 16:12:44",
     "submissions_data": [
-        {
-            "issue": "Actions and plans in pursuit of economic diversification that have co-benefits in the form of emission reductions, adaptation to the impacts of climate change and response measures",
-            "deadline": "Open",
-            "title": "Further information from Parties concerned and other Parties on actions and plans in pursuit of economic diversification that have co-benefits in the form of emission reductions, adaptation to the impacts of climate change and response measures.",
-            "mandate": "Decision 24/CP.18, paragraph 2.",
-            "submissions": {
-                "Party": [],
-                "Observer State": [],
-                "UN": [],
-                "IGO": [
-                    {
-                        "submission_name": " Submission on Economic Diversification and Co-Benefits_V3 RT",
-                        "submission_entity": "Regional Community Forestry Training Center for Asia and the Pacific (RECOFTC)",
-                        "submission_language": "English",
-                        "submission_date": "13/12/2021",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202112131046---Submission on Economic Diversification and Co-Benefits_V3 RT.pdf"
-                    },
-                    {
-                        "submission_name": " Submission on Economic Diversification and Co-Benefits_V4",
-                        "submission_entity": "Regional Community Forestry Training Center for Asia and the Pacific (RECOFTC) on behalf of The Regional Community Forestry Training Center for Asia and the Pacific (RECOFTC)",
-                        "submission_language": "English",
-                        "submission_date": "08/10/2021",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202110081008---Submission on Economic Diversification and Co-Benefits_V4.pdf"
-                    }
-                ],
-                "NGO": [],
-                "NAO": [
-                    {
-                        "submission_name": " Natural Economic Direct Carbon Capture System",
-                        "submission_entity": "Steel Wood Industries FZCO (Dubai Branch)",
-                        "submission_language": "English",
-                        "submission_date": "11/03/2020",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202003111830---Natural Economic Direct Carbon Capture System .pdf"
-                    }
-                ],
-                "Elections Chairs and Coordinators": []
-            }
-        },
         {
             "issue": "Development and transfer of technologies and implementation of the technology mechanism (DTT) (CTCN)",
             "deadline": "Open",
@@ -47,6 +9,13 @@
             "mandate": "Decisions 2/CP.17 and 14/CP.18.",
             "submissions": {
                 "Party": [
+                    {
+                        "submission_name": " CAR_CTCN",
+                        "submission_entity": "Central African Republic",
+                        "submission_language": "English",
+                        "submission_date": "07/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206071707---CAR_CTCN.pdf"
+                    },
                     {
                         "submission_name": " Chile_CTCN_rev",
                         "submission_entity": "Chile",
@@ -3087,6 +3056,13 @@
                 "Observer State": [],
                 "UN": [
                     {
+                        "submission_name": " SBSTA56_ICAO submission_FINAL",
+                        "submission_entity": "International Civil Aviation Organization (ICAO)",
+                        "submission_language": "English",
+                        "submission_date": "02/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206031745---SBSTA56_ICAO submission_FINAL.pdf"
+                    },
+                    {
                         "submission_name": " IMO submission to SBSTA 56",
                         "submission_entity": "International Maritime Organization (IMO)",
                         "submission_language": "English",
@@ -3096,15 +3072,7 @@
                 ],
                 "IGO": [],
                 "NGO": [],
-                "NAO": [
-                    {
-                        "submission_name": " SBSTA56_ICAO submission_FINAL",
-                        "submission_entity": "International Civil Aviation Organization (ICAO)",
-                        "submission_language": "English",
-                        "submission_date": "03/06/2022",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206031745---SBSTA56_ICAO submission_FINAL.pdf"
-                    }
-                ],
+                "NAO": [],
                 "Elections Chairs and Coordinators": []
             }
         },
@@ -3190,6 +3158,13 @@
             "submissions": {
                 "Party": [
                     {
+                        "submission_name": " CARBON COLONIALISM BOL 05.06.2022",
+                        "submission_entity": "Bolivia (Plurinational State of)",
+                        "submission_language": "English",
+                        "submission_date": "06/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206061856---CARBON COLONIALISM BOL 05.06.2022.pdf"
+                    },
+                    {
                         "submission_name": " World Bank on 6.2",
                         "submission_entity": "World Bank (WB)",
                         "submission_language": "English",
@@ -3199,6 +3174,13 @@
                 ],
                 "Observer State": [],
                 "UN": [
+                    {
+                        "submission_name": " WHO_submission_SB56",
+                        "submission_entity": "World Health Organization (WHO)",
+                        "submission_language": "English",
+                        "submission_date": "05/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206050920---WHO_submission_SB56.pdf"
+                    },
                     {
                         "submission_name": " WMO Submission_Article 6_2022-03-31",
                         "submission_entity": "World Meteorological Organization (WMO)",
@@ -3331,18 +3313,46 @@
             "submissions": {
                 "Party": [],
                 "Observer State": [],
-                "UN": [],
-                "IGO": [],
-                "NGO": [],
-                "NAO": [
+                "UN": [
+                    {
+                        "submission_name": " WMO Statement_SBSTA 56",
+                        "submission_entity": "World Meteorological Organization (WMO)",
+                        "submission_language": "English",
+                        "submission_date": "07/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206071605---WMO Statement_SBSTA 56.pdf"
+                    },
+                    {
+                        "submission_name": " IPCC_June 2022_opening",
+                        "submission_entity": "World Meteorological Organization (WMO)",
+                        "submission_language": "English",
+                        "submission_date": "07/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206071116---IPCC_June 2022_opening.pdf"
+                    },
+                    {
+                        "submission_name": " GCOSStatement_SBSTA56",
+                        "submission_entity": "World Meteorological Organization (WMO)",
+                        "submission_language": "English",
+                        "submission_date": "05/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206051237---GCOSStatement_SBSTA56.pdf"
+                    },
+                    {
+                        "submission_name": " WHO_statement_SB56_Opening.Statement",
+                        "submission_entity": "World Health Organization (WHO)",
+                        "submission_language": "English",
+                        "submission_date": "05/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206050922---WHO_statement_SB56_Opening.Statement.pdf"
+                    },
                     {
                         "submission_name": " WCRP Statement_SBSTA 56_v3",
-                        "submission_entity": "Non-admitted entity",
+                        "submission_entity": "World Meteorological Organization (WMO) on behalf of WCRP",
                         "submission_language": "English",
-                        "submission_date": "02/06/2022",
+                        "submission_date": "01/06/2022",
                         "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206021037---WCRP Statement_SBSTA 56_v3.pdf"
                     }
                 ],
+                "IGO": [],
+                "NGO": [],
+                "NAO": [],
                 "Elections Chairs and Coordinators": []
             }
         },
@@ -3367,113 +3377,11 @@
             "title": "High-Level Champions for Climate Action",
             "mandate": "N/A",
             "submissions": {
-                "Party": [
-                    {
-                        "submission_name": " AOSIS MP Submission - FINAL - 12 Apr 19-3",
-                        "submission_entity": "Belize on behalf of Alliance of Small Island States (AOSIS)",
-                        "submission_language": "English",
-                        "submission_date": "15/04/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201904151648---AOSIS MP Submission - FINAL - 12 Apr 19-3.pdf"
-                    },
-                    {
-                        "submission_name": " Norway submission high level champions_0319",
-                        "submission_entity": "Norway",
-                        "submission_language": "English",
-                        "submission_date": "22/03/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201903220506---Norway submission high level champions_0319.pdf"
-                    },
-                    {
-                        "submission_name": " Letter to High-Level Climate Champion on behalf of the EU and its Member States",
-                        "submission_entity": "Romania on behalf of the European Union and its Member States",
-                        "submission_language": "English",
-                        "submission_date": "08/03/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201903081549---Letter to High-Level Climate Champion on behalf of the EU and its Member States.pdf"
-                    },
-                    {
-                        "submission_name": " Submission Partnership",
-                        "submission_entity": "Mexico on behalf of Inputs from the Government of Mexico, Fundaci\u00f3n Pensar, Movimiento de J\u00f3venes Latinoamericanos y Caribe\u00f1os frente al Cambio Clim\u00e1tico (CLIC!) and Red Latinoamericana de Ciencias Atmosf\u00e9ricas y Meteorolog\u00eda (Red LATAM).",
-                        "submission_language": "English",
-                        "submission_date": "01/03/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201903011028---Submission  Partnership.docx"
-                    }
-                ],
+                "Party": [],
                 "Observer State": [],
-                "UN": [
-                    {
-                        "submission_name": " 190215-Suggestions to Champions for COP25-final",
-                        "submission_entity": "United Nations Environment Programme (UNEP)",
-                        "submission_language": "English",
-                        "submission_date": "03/03/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201903041217---190215-Suggestions to Champions for COP25-final.pdf"
-                    }
-                ],
-                "IGO": [
-                    {
-                        "submission_name": " Feedback_MPGCA_ITF_FINAL",
-                        "submission_entity": "International Transport Forum, Organisation for Economic Co-operation and Development (ITF)",
-                        "submission_language": "English",
-                        "submission_date": "03/03/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201903061647---Feedback_MPGCA_ITF_FINAL.pdf"
-                    }
-                ],
-                "NGO": [
-                    {
-                        "submission_name": " IAAI_GloCha_submission_UNFCCC_MarrakechPartnership_GCA_4March2019",
-                        "submission_entity": "International Association for the Advancement of Innovative Approaches to Global Challenges (IAAI)",
-                        "submission_language": "English",
-                        "submission_date": "11/03/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201903111220---IAAI_GloCha_submission_UNFCCC_MarrakechPartnership_GCA_4March2019.pdf"
-                    },
-                    {
-                        "submission_name": " ICLEI_MPGCA submission 2019_20190304",
-                        "submission_entity": "ICLEI\u2014Local Governments for Sustainability on behalf of ICLEI - Local Governments for Sustainability (ICLEI)",
-                        "submission_language": "English",
-                        "submission_date": "04/03/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201903042115---ICLEI_MPGCA submission 2019_20190304.pdf"
-                    },
-                    {
-                        "submission_name": " CDP feedback_Marrakech Partnership for Global Climate Action",
-                        "submission_entity": "CDP Worldwide on behalf of CDP Worldwide",
-                        "submission_language": "English",
-                        "submission_date": "04/03/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201903041901---CDP feedback_Marrakech Partnership for Global Climate Action.pdf"
-                    },
-                    {
-                        "submission_name": " nrg4SD input to the MP GCA",
-                        "submission_entity": "Network of Regional Governments for Sustainable Development (nrg4SD) on behalf of Network of Regional Governments for Sustainable Development (nrg4SD)",
-                        "submission_language": "English",
-                        "submission_date": "04/03/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201903041706---nrg4SD input to the MP GCA.pdf"
-                    },
-                    {
-                        "submission_name": " MP Submission Mohammed VI Foundation for Environmental Protection",
-                        "submission_entity": "Fondation Mohammed VI pour la protection de l'environnement (FM6E) on behalf of Mohammed VI Foundation for Environmental Protection",
-                        "submission_language": "English",
-                        "submission_date": "04/03/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201903041146---MP Submission Mohammed VI Foundation for Environmental Protection.docx"
-                    },
-                    {
-                        "submission_name": " SLoCaT Partnership\u00b4s responses to UNFCCC HL Climate Champions Questions - Feb 2019",
-                        "submission_entity": "Partnership on Sustainable Low Carbon Transport (SLoCaT) on behalf of Partnership on Sustainable Low Carbon Transport (SLoCaT)",
-                        "submission_language": "English",
-                        "submission_date": "27/02/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201902271304---SLoCaT Partnership\u00b4s responses to UNFCCC HL Climate Champions Questions - Feb 2019.pdf"
-                    },
-                    {
-                        "submission_name": " WBCSD - Feedback to MPGCA",
-                        "submission_entity": "World Business Council for Sustainable Development (WBCSD)",
-                        "submission_language": "English",
-                        "submission_date": "18/02/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201902181234---WBCSD - Feedback to MPGCA.pdf"
-                    },
-                    {
-                        "submission_name": " SEI_Marrakech_Submission_Feb2019",
-                        "submission_entity": "Stockholm Environment Institute (SEI) on behalf of The Stockholm Environment Institute",
-                        "submission_language": "English",
-                        "submission_date": "14/02/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201902142213---SEI_Marrakech_Submission_Feb2019.pdf"
-                    }
-                ],
+                "UN": [],
+                "IGO": [],
+                "NGO": [],
                 "NAO": [],
                 "Elections Chairs and Coordinators": []
             }
@@ -3484,39 +3392,9 @@
             "title": "SBSTA item 8 (e) of the provisional agenda: Methodological issues under the Convention. Emissions from fuel used for international aviation and maritime transport",
             "mandate": "Decisions 4/CP.1 and 18/CP.5; SBSTA report",
             "submissions": {
-                "Party": [
-                    {
-                        "submission_name": " Submission on fuels_Final_2",
-                        "submission_entity": "Romania on behalf of the European Commission on behalf of the European Union and its member States",
-                        "submission_language": "English",
-                        "submission_date": "19/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906201743---Submission on fuels_Final_2.pdf"
-                    },
-                    {
-                        "submission_name": " SBSTA50 Statement by Japan_20190618093753_322120",
-                        "submission_entity": "Japan",
-                        "submission_language": "English",
-                        "submission_date": "18/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906181456---SBSTA50 Statement by Japan_20190618093753_322120.pdf"
-                    }
-                ],
+                "Party": [],
                 "Observer State": [],
-                "UN": [
-                    {
-                        "submission_name": " SBSTA50 ICAO submission_Final",
-                        "submission_entity": "International Civil Aviation Organization (ICAO)",
-                        "submission_language": "English",
-                        "submission_date": "14/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906141641---SBSTA50 ICAO submission_Final.pdf"
-                    },
-                    {
-                        "submission_name": " IMO submission to SBSTA 50",
-                        "submission_entity": "International Maritime Organization (IMO)",
-                        "submission_language": "English",
-                        "submission_date": "11/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906121608---IMO submission to SBSTA 50.pdf"
-                    }
-                ],
+                "UN": [],
                 "IGO": [],
                 "NGO": [],
                 "NAO": [],
@@ -3529,155 +3407,12 @@
             "title": "Statements for the joint SBSTA/SBI opening plenary",
             "mandate": "n/a",
             "submissions": {
-                "Party": [
-                    {
-                        "submission_name": " EIG Opening Intervention_full statement",
-                        "submission_entity": "Switzerland on behalf of Environmental Integrity Group",
-                        "submission_language": "English",
-                        "submission_date": "26/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906260908---EIG Opening Intervention_full statement.pdf"
-                    },
-                    {
-                        "submission_name": " RO-06-20 EU 20 opening statement Bonn 1706",
-                        "submission_entity": "Romania on behalf of the European Commission on behalf of the European Union and its member States",
-                        "submission_language": "English",
-                        "submission_date": "19/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906201737---RO-06-20 EU 20 opening statement Bonn 1706.pdf"
-                    },
-                    {
-                        "submission_name": " INDONESIA Statement_Joint opening plenary SBI 50_ SBSTA 50 - 17 June 2019",
-                        "submission_entity": "Indonesia",
-                        "submission_language": "English",
-                        "submission_date": "19/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906192035---INDONESIA Statement_Joint opening plenary SBI 50_ SBSTA 50 - 17 June 2019.pdf"
-                    },
-                    {
-                        "submission_name": " State of Palestine on behalf of G77 and China_SB50_Opening Statement_17 June 2019_FINAL_Uploaded",
-                        "submission_entity": "State of Palestine on behalf of Group of G77 and China",
-                        "submission_language": "English",
-                        "submission_date": "18/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906181717---State of Palestine on behalf of G77 and China_SB50_Opening Statement_17 June 2019_FINAL_Uploaded.pdf"
-                    },
-                    {
-                        "submission_name": " SBI SBSTA 50 Arab Group Opening Statement",
-                        "submission_entity": "Saudi Arabia on behalf of Arab Group",
-                        "submission_language": "English",
-                        "submission_date": "18/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906181328---SBI SBSTA 50 Arab Group Opening Statement.pdf"
-                    },
-                    {
-                        "submission_name": " AGN SBSTA SBI Joint Statement 17 June 2019 Longer statement Final",
-                        "submission_entity": "Egypt on behalf of on behalf of the African Group",
-                        "submission_language": "English",
-                        "submission_date": "18/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906181221---AGN SBSTA SBI  Joint Statement 17 June 2019 Longer statement Final.pdf"
-                    },
-                    {
-                        "submission_name": " Russian Federation",
-                        "submission_entity": "Russian Federation",
-                        "submission_language": "English",
-                        "submission_date": "18/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906180950---Russian Federation.pdf"
-                    },
-                    {
-                        "submission_name": " AOSIS Opening Statement - 17 June 2019",
-                        "submission_entity": "Belize on behalf of on behalf of AOSIS",
-                        "submission_language": "English",
-                        "submission_date": "18/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906180922---AOSIS Opening Statement - 17 June 2019.pdf"
-                    },
-                    {
-                        "submission_name": " DRC CfRN SB50 statement opening plenary-FINAL (3) - kc--CLEAN",
-                        "submission_entity": "Democratic Republic of the Congo",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906181206---DRC CfRN SB50 statement opening plenary-FINAL (3) - kc--CLEAN.pdf"
-                    },
-                    {
-                        "submission_name": " Statement_Ukraine_SBs50",
-                        "submission_entity": "Ukraine",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906181215---Statement_Ukraine_SBs50.pdf"
-                    },
-                    {
-                        "submission_name": " Statement of Palestine in Opening SBs 50._!7.6.2019",
-                        "submission_entity": "State of Palestine on behalf of State of Palestine",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906171838---Statement of Palestine in Opening SBs 50._!7.6.2019.docx"
-                    },
-                    {
-                        "submission_name": " ABU Opening Statement",
-                        "submission_entity": "Argentina on behalf of Argentina, Brazil,Uruguay",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906171747---ABU Opening Statement.pdf"
-                    },
-                    {
-                        "submission_name": " LDC group Joint SBSTA-SBI opening statement for SB50",
-                        "submission_entity": "Bhutan on behalf of on behalf of the Least Developed Countries (LDCs)",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906171744---LDC group Joint SBSTA-SBI opening statement for SB50.pdf"
-                    },
-                    {
-                        "submission_name": " AILAC_Spanish",
-                        "submission_entity": "Costa Rica on behalf of on behalf of AILAC",
-                        "submission_language": "English",
-                        "submission_date": "16/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906172033---AILAC_Spanish.pdf"
-                    },
-                    {
-                        "submission_name": " AILAC_English",
-                        "submission_entity": "Costa Rica on behalf of on behalf of AILAC",
-                        "submission_language": "English",
-                        "submission_date": "16/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906172031---AILAC_English.pdf"
-                    }
-                ],
+                "Party": [],
                 "Observer State": [],
                 "UN": [],
                 "IGO": [],
-                "NGO": [
-                    {
-                        "submission_name": " IIPFCC_Statement_June_2019",
-                        "submission_entity": "Asia Indigenous Peoples Pact (AIPP) on behalf of International Indigenous Peoples Forum on Climate Change (IIPFCC)",
-                        "submission_language": "English",
-                        "submission_date": "19/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906190742---IIPFCC_Statement_June_2019.pdf"
-                    },
-                    {
-                        "submission_name": " Business and Industry Statement_Joint SBI SBSTA Opening_Bonn Climate Change Conference_FINAL",
-                        "submission_entity": "International Chamber of Commerce (ICC) on behalf of International Chamber of Commerce",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906171454---Business and Industry Statement_Joint SBI SBSTA Opening_Bonn Climate Change Conference_FINAL.docx"
-                    },
-                    {
-                        "submission_name": " YOUNGO Joint Opening Plenary - SBSTA and SBI - 17_06_2019",
-                        "submission_entity": "Youth non-governmental organizations (YOUNGO) on behalf of YOUNGO - Youth NGOs",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906171416---YOUNGO Joint Opening Plenary -  SBSTA and SBI - 17_06_2019.pdf"
-                    },
-                    {
-                        "submission_name": " CAN_Engo_SB50_Joint Opening Intervention",
-                        "submission_entity": "Climate Action Network International",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906171322---CAN_Engo_SB50_Joint Opening Intervention.pdf"
-                    }
-                ],
-                "NAO": [
-                    {
-                        "submission_name": " Arab_statement",
-                        "submission_entity": "on behalf of the Arab Group",
-                        "submission_language": "English",
-                        "submission_date": "18/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906181209---Arab_statement.pdf"
-                    }
-                ],
+                "NGO": [],
+                "NAO": [],
                 "Elections Chairs and Coordinators": []
             }
         },
@@ -3687,92 +3422,11 @@
             "title": "SBSTA 50 opening plenary",
             "mandate": "n.a.",
             "submissions": {
-                "Party": [
-                    {
-                        "submission_name": " AOSIS Opening Statement - 17 June 2019",
-                        "submission_entity": "Belize on behalf of Belize on behalf of Alliance of Small Island States (AOSIS)",
-                        "submission_language": "English",
-                        "submission_date": "18/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906180611---AOSIS Opening Statement - 17 June 2019.pdf"
-                    },
-                    {
-                        "submission_name": " Statement of Palestine in Opening SBs 50._!7.6.2019",
-                        "submission_entity": "State of Palestine",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906171730---Statement of Palestine in Opening SBs 50._!7.6.2019.pdf"
-                    }
-                ],
+                "Party": [],
                 "Observer State": [],
-                "UN": [
-                    {
-                        "submission_name": " SBSTA50 ICAO statement_Final",
-                        "submission_entity": "International Civil Aviation Organization (ICAO)",
-                        "submission_language": "English",
-                        "submission_date": "26/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906261304---SBSTA50 ICAO statement_Final.pdf"
-                    },
-                    {
-                        "submission_name": " IMO Statement SBSTA 50_final_rev.1",
-                        "submission_entity": "International Maritime Organization (IMO)",
-                        "submission_language": "English",
-                        "submission_date": "18/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906181102---IMO Statement SBSTA 50_final_rev.1.pdf"
-                    },
-                    {
-                        "submission_name": " Statement to SBSTA 50_WCRP",
-                        "submission_entity": "World Meteorological Organization (WMO)",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906171951---Statement to SBSTA 50_WCRP.pdf"
-                    },
-                    {
-                        "submission_name": " IPCC SBSTA 50",
-                        "submission_entity": "World Meteorological Organization (WMO)",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906171945---IPCC SBSTA 50.pdf"
-                    },
-                    {
-                        "submission_name": " Statement to SBSTA 50_GCOS_15May",
-                        "submission_entity": "World Meteorological Organization (WMO)",
-                        "submission_language": "English",
-                        "submission_date": "14/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906141431---Statement to SBSTA 50_GCOS_15May.pdf"
-                    },
-                    {
-                        "submission_name": " WMO STATEMENT AT SBSTA 50_20190522",
-                        "submission_entity": "World Meteorological Organization (WMO)",
-                        "submission_language": "English",
-                        "submission_date": "14/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906141424---WMO STATEMENT AT SBSTA 50_20190522.pdf"
-                    },
-                    {
-                        "submission_name": " IOC_statement_SBSTA50_Plenary_170619",
-                        "submission_entity": "United Nations Educational, Scientific and Cultural Organization (UNESCO) on behalf of Intergovernmental Oceanographic Commission of UNESCO",
-                        "submission_language": "English",
-                        "submission_date": "14/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906141225---IOC_statement_SBSTA50_Plenary_170619.pdf"
-                    }
-                ],
-                "IGO": [
-                    {
-                        "submission_name": " CEOS-CGMS_Statement_for_SBSTA50_v1.1_20190611",
-                        "submission_entity": "European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT)",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906172010---CEOS-CGMS_Statement_for_SBSTA50_v1.1_20190611.pdf"
-                    }
-                ],
-                "NGO": [
-                    {
-                        "submission_name": " SB50 LGMA_joint opening_ICLEI_final",
-                        "submission_entity": "ICLEI\u2014Local Governments for Sustainability",
-                        "submission_language": "English",
-                        "submission_date": "17/06/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201906171602---SB50 LGMA_joint opening_ICLEI_final.pdf"
-                    }
-                ],
+                "UN": [],
+                "IGO": [],
+                "NGO": [],
                 "NAO": [],
                 "Elections Chairs and Coordinators": []
             }
@@ -3783,209 +3437,11 @@
             "title": "Views on matters related to methodological issues under the Paris Agreement referred to in paragraph 115 contained in FCCC/SBSTA/2019/2, including CRF tables for GHG inventories and experience with using IPCC 2006 Guidelines; CTF tables for tracking progress of implementation and achieving NDCs; tables for support needed and received as well as support provided and mobilized; and approaches to operationalize flexibility as defined in decision 18.CMA.1.",
             "mandate": "FCCC/SBSTA/2019/2, para.125",
             "submissions": {
-                "Party": [
-                    {
-                        "submission_name": " Soumission-Tunisie-fr",
-                        "submission_entity": "Tunisia",
-                        "submission_language": "French",
-                        "submission_date": "15/06/2020",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202006151329---Soumission-Tunisie-fr.pdf"
-                    },
-                    {
-                        "submission_name": " Submission-Tunisia-Eng",
-                        "submission_entity": "Tunisia",
-                        "submission_language": "English",
-                        "submission_date": "15/06/2020",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202006151327---Submission-Tunisia-Eng.pdf"
-                    },
-                    {
-                        "submission_name": " India-LMDC",
-                        "submission_entity": "India on behalf of on behalf of the Like-Minded Developing Countries",
-                        "submission_language": "English",
-                        "submission_date": "06/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912060944---India-LMDC.pdf"
-                    },
-                    {
-                        "submission_name": " Copy of AGN submission SBSTA 11 Nov 2019 Annex 2 tables for support needed and recieved",
-                        "submission_entity": "Egypt",
-                        "submission_language": "English",
-                        "submission_date": "05/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912051003---Copy of AGN submission SBSTA 11 Nov 2019 Annex 2 tables for support needed and recieved.xlsx"
-                    },
-                    {
-                        "submission_name": " Copy of AGN Submission SBSTA 11 Nov 2019 Annex 1 tables for support provided",
-                        "submission_entity": "Egypt on behalf of the African Group of Negotiators",
-                        "submission_language": "English",
-                        "submission_date": "05/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912051002---Copy of AGN Submission SBSTA 11 Nov 2019 Annex 1 tables for support provided.xlsx"
-                    },
-                    {
-                        "submission_name": " AGN submission SBSTA 11 Nov 2019 meth issues uunder the PA",
-                        "submission_entity": "Egypt on behalf of the African Group of Negotiators",
-                        "submission_language": "English",
-                        "submission_date": "05/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912050959---AGN submission SBSTA 11 Nov 2019 meth issues uunder the PA.pdf"
-                    },
-                    {
-                        "submission_name": " AGN submission SBSTA 11 Nov 2019 Annex 2 tables for support needed and recieved",
-                        "submission_entity": "African Group of Negotiators (AGN)",
-                        "submission_language": "English",
-                        "submission_date": "04/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912042237---AGN submission SBSTA 11 Nov 2019 Annex 2 tables for support needed and recieved.xlsx"
-                    },
-                    {
-                        "submission_name": " transparencysubmission",
-                        "submission_entity": "Belize on behalf of Alliance of Small Island States (AOSIS)",
-                        "submission_language": "English",
-                        "submission_date": "04/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912040421---transparencysubmission.zip"
-                    },
-                    {
-                        "submission_name": " AGN submission SBSTA 11 Nov 2019 meth issues uunder the PA",
-                        "submission_entity": "African Group of Negotiators (AGN)",
-                        "submission_language": "English",
-                        "submission_date": "03/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912042237---AGN submission SBSTA 11 Nov 2019 meth issues uunder the PA.pdf"
-                    },
-                    {
-                        "submission_name": " AGN Submission SBSTA 11 Nov 2019 Annex 1 tables for support provided",
-                        "submission_entity": "African Group of Negotiators (AGN)",
-                        "submission_language": "English",
-                        "submission_date": "03/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912042237---AGN Submission SBSTA 11 Nov 2019 Annex 1 tables for support provided.xlsx"
-                    },
-                    {
-                        "submission_name": " Arab Group Submission SBSTA 11",
-                        "submission_entity": "Saudi Arabia on behalf of Arab Group",
-                        "submission_language": "English",
-                        "submission_date": "03/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912031155---Arab Group Submission SBSTA 11.pdf"
-                    },
-                    {
-                        "submission_name": " \u30bb\u30f3\u30bf\u30ea\u30f3\u30b0",
-                        "submission_entity": "Japan",
-                        "submission_language": "English",
-                        "submission_date": "29/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911290927---JAPAN_S SUBMISSION ON TRANSPARENCY_.DOCX"
-                    },
-                    {
-                        "submission_name": " TABLE4",
-                        "submission_entity": "Japan",
-                        "submission_language": "English",
-                        "submission_date": "29/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911290927---TABLE4.PDF"
-                    },
-                    {
-                        "submission_name": " TABLE2",
-                        "submission_entity": "Japan",
-                        "submission_language": "English",
-                        "submission_date": "29/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911290927---TABLE2.PDF"
-                    },
-                    {
-                        "submission_name": " TABLE3",
-                        "submission_entity": "Japan",
-                        "submission_language": "English",
-                        "submission_date": "29/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911290927---TABLE3.PDF"
-                    },
-                    {
-                        "submission_name": " TABLE1",
-                        "submission_entity": "Japan",
-                        "submission_language": "English",
-                        "submission_date": "29/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911290927---TABLE1.PDF"
-                    },
-                    {
-                        "submission_name": " EIG 2019-11-18 - Annex II Tracking progress tables",
-                        "submission_entity": "Switzerland on behalf of the Environmental Integrity Group",
-                        "submission_language": "English",
-                        "submission_date": "20/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911201108---EIG 2019-11-18 - Annex II Tracking progress tables.xlsx"
-                    },
-                    {
-                        "submission_name": " EIG 2019-11-18 - Submission on Transparency",
-                        "submission_entity": "Switzerland on behalf of the Environmental Integrity Group",
-                        "submission_language": "English",
-                        "submission_date": "20/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911201108---EIG 2019-11-18 - Submission on Transparency.pdf"
-                    },
-                    {
-                        "submission_name": " Canada Transparency Submission (FR)",
-                        "submission_entity": "Canada",
-                        "submission_language": "French",
-                        "submission_date": "19/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911191603---Canada Transparency Submission (FR).pdf"
-                    },
-                    {
-                        "submission_name": " Canada Transparency Submission (EN)",
-                        "submission_entity": "Canada",
-                        "submission_language": "English",
-                        "submission_date": "19/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911191603---Canada Transparency Submission (EN).pdf"
-                    },
-                    {
-                        "submission_name": " New_Zealand_submission_SBSTA_transparency_FINAL_November_2019",
-                        "submission_entity": "New Zealand",
-                        "submission_language": "English",
-                        "submission_date": "01/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911011029---New_Zealand_submission_SBSTA_transparency_FINAL_November_2019.pdf"
-                    },
-                    {
-                        "submission_name": " transparency_submission_NORoct19",
-                        "submission_entity": "Norway",
-                        "submission_language": "English",
-                        "submission_date": "25/10/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201910251124---transparency_submission_NORoct19.pdf"
-                    },
-                    {
-                        "submission_name": " US Transparency Submission 10.21.19.docx",
-                        "submission_entity": "United States of America on behalf of United States",
-                        "submission_language": "English",
-                        "submission_date": "21/10/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201910211626---US Transparency Submission 10.21.19.docx.pdf"
-                    },
-                    {
-                        "submission_name": " FI-10-10 EU Submission on Methodological Issues under the Paris Agreement",
-                        "submission_entity": "European Union",
-                        "submission_language": "English",
-                        "submission_date": "10/10/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201910101145---FI-10-10 EU Submission on Methodological Issues under the Paris Agreement.pdf"
-                    },
-                    {
-                        "submission_name": " 190927 AILAC submission on Transparency 2019 II vf",
-                        "submission_entity": "Guatemala on behalf of AILAC Group",
-                        "submission_language": "English",
-                        "submission_date": "30/09/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201909301807---190927 AILAC submission on Transparency 2019 II vf.pdf"
-                    },
-                    {
-                        "submission_name": " 190924 Annexes B and C CTFs Support AILAC vf",
-                        "submission_entity": "Guatemala on behalf of AILAC Group",
-                        "submission_language": "English",
-                        "submission_date": "30/09/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201909301807---190924 Annexes B and C CTFs Support AILAC vf.docx"
-                    },
-                    {
-                        "submission_name": " 260919 Annex A CTF tracking progress NDCs AILAC",
-                        "submission_entity": "Guatemala on behalf of AILAC Group",
-                        "submission_language": "English",
-                        "submission_date": "29/09/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201909301807---260919 Annex A CTF tracking progress NDCs AILAC.xlsx"
-                    }
-                ],
+                "Party": [],
                 "Observer State": [],
                 "UN": [],
                 "IGO": [],
-                "NGO": [
-                    {
-                        "submission_name": " Art 13 CTF_IGES submission_final2",
-                        "submission_entity": "Institute for Global Environmental Strategies (IGES)",
-                        "submission_language": "English",
-                        "submission_date": "25/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911251537---Art 13 CTF_IGES submission_final2.pdf"
-                    }
-                ],
+                "NGO": [],
                 "NAO": [],
                 "Elections Chairs and Coordinators": []
             }
@@ -3996,15 +3452,7 @@
             "title": "Statements for the SB 51 closing plenary",
             "mandate": "n/a",
             "submissions": {
-                "Party": [
-                    {
-                        "submission_name": " Singapore_s Statement on ITE for SBSTA51",
-                        "submission_entity": "Singapore",
-                        "submission_language": "English",
-                        "submission_date": "13/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912131257---Singapore_s Statement on ITE for SBSTA51.pdf"
-                    }
-                ],
+                "Party": [],
                 "Observer State": [],
                 "UN": [],
                 "IGO": [],
@@ -4019,76 +3467,10 @@
             "title": "SBSTA51 IGO and Party statements",
             "mandate": "FCCC Art.9",
             "submissions": {
-                "Party": [
-                    {
-                        "submission_name": " SBSTA51 Statement by Japan_",
-                        "submission_entity": "Japan",
-                        "submission_language": "English",
-                        "submission_date": "03/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912031942---SBSTA51 Statement by Japan_.pdf"
-                    }
-                ],
+                "Party": [],
                 "Observer State": [],
-                "UN": [
-                    {
-                        "submission_name": " Discurso Hesiquio para la CMNUCC",
-                        "submission_entity": "Convention on Biological Diversity (CBD)",
-                        "submission_language": "English",
-                        "submission_date": "30/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912301001---Discurso Hesiquio para la CMNUCC.pdf"
-                    },
-                    {
-                        "submission_name": " SBSTA51 ICAO submission_Final",
-                        "submission_entity": "International Civil Aviation Organization (ICAO)",
-                        "submission_language": "English",
-                        "submission_date": "01/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912011815---SBSTA51 ICAO submission_Final.pdf"
-                    },
-                    {
-                        "submission_name": " SBSTA51 ICAO statement_Final",
-                        "submission_entity": "International Civil Aviation Organization (ICAO)",
-                        "submission_language": "English",
-                        "submission_date": "01/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912011812---SBSTA51 ICAO statement_Final.pdf"
-                    },
-                    {
-                        "submission_name": " Statement of IOC SBSTA-51",
-                        "submission_entity": "United Nations Educational, Scientific and Cultural Organization (UNESCO)",
-                        "submission_language": "English",
-                        "submission_date": "30/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911301056---Statement of IOC SBSTA-51.pdf"
-                    },
-                    {
-                        "submission_name": " WMO statement_SBSTA 51",
-                        "submission_entity": "World Meteorological Organization (WMO)",
-                        "submission_language": "English",
-                        "submission_date": "28/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911281214---WMO statement_SBSTA 51.pdf"
-                    },
-                    {
-                        "submission_name": " WCRP statement_SBSTA 51",
-                        "submission_entity": "World Meteorological Organization (WMO) on behalf of World Climate Research Programme",
-                        "submission_language": "English",
-                        "submission_date": "28/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911281212---WCRP statement_SBSTA 51.pdf"
-                    },
-                    {
-                        "submission_name": " GCOS statement_SBSTA 51",
-                        "submission_entity": "World Meteorological Organization (WMO) on behalf of Global Climate Observing System",
-                        "submission_language": "English",
-                        "submission_date": "28/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911281210---GCOS statement_SBSTA 51.pdf"
-                    }
-                ],
-                "IGO": [
-                    {
-                        "submission_name": " CEOS-CGMS_Statement_for_SBSTA51_v1.1_20191023",
-                        "submission_entity": "European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT)",
-                        "submission_language": "English",
-                        "submission_date": "28/11/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201911281201---CEOS-CGMS_Statement_for_SBSTA51_v1.1_20191023.pdf"
-                    }
-                ],
+                "UN": [],
+                "IGO": [],
                 "NGO": [],
                 "NAO": [],
                 "Elections Chairs and Coordinators": []
@@ -4102,24 +3484,8 @@
             "submissions": {
                 "Party": [],
                 "Observer State": [],
-                "UN": [
-                    {
-                        "submission_name": " IAEA statement to SBSTA 51",
-                        "submission_entity": "International Atomic Energy Agency (IAEA)",
-                        "submission_language": "English",
-                        "submission_date": "08/01/2020",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202001081044---IAEA statement to SBSTA 51.pdf"
-                    }
-                ],
-                "IGO": [
-                    {
-                        "submission_name": " OECD statement",
-                        "submission_entity": "Organisation for Economic Co-operation and Development (OECD)",
-                        "submission_language": "English",
-                        "submission_date": "08/01/2020",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202001081039---OECD statement.pdf"
-                    }
-                ],
+                "UN": [],
+                "IGO": [],
                 "NGO": [],
                 "NAO": [],
                 "Elections Chairs and Coordinators": []
@@ -4133,36 +3499,7 @@
             "submissions": {
                 "Party": [],
                 "Observer State": [],
-                "UN": [
-                    {
-                        "submission_name": " WMO Submission SBSTA 51 Updates in WMO - GCOS, WCRP and GFCS activities",
-                        "submission_entity": "World Meteorological Organization (WMO)",
-                        "submission_language": "English",
-                        "submission_date": "18/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912181422---WMO Submission SBSTA 51 Updates in WMO - GCOS, WCRP and GFCS activities.pdf"
-                    },
-                    {
-                        "submission_name": " WMO Provisional Climate Statement on the State of the Gloal Climate in 2019",
-                        "submission_entity": "World Meteorological Organization (WMO)",
-                        "submission_language": "English",
-                        "submission_date": "18/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912181420---WMO Provisional Climate Statement on the State of the Gloal Climate in 2019.pdf"
-                    },
-                    {
-                        "submission_name": " WMO Greenhouse Gas Bulletin",
-                        "submission_entity": "World Meteorological Organization (WMO)",
-                        "submission_language": "English",
-                        "submission_date": "18/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912181417---WMO Greenhouse Gas Bulletin.pdf"
-                    },
-                    {
-                        "submission_name": " 2019 State of Climate Services Agriculture and Food Security",
-                        "submission_entity": "World Meteorological Organization (WMO)",
-                        "submission_language": "English",
-                        "submission_date": "18/12/2019",
-                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/201912181346---2019 State of Climate Services Agriculture and Food Security.pdf"
-                    }
-                ],
+                "UN": [],
                 "IGO": [],
                 "NGO": [],
                 "NAO": [],
@@ -7298,6 +6635,13 @@
             "submissions": {
                 "Party": [
                     {
+                        "submission_name": " AOSIS_Markets_NMAs_Article 6.8",
+                        "submission_entity": "Antigua and Barbuda on behalf of the Alliance of Small Island States (AOSIS)",
+                        "submission_language": "English",
+                        "submission_date": "05/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206050912---AOSIS_Markets_NMAs_Article 6.8.pdf"
+                    },
+                    {
                         "submission_name": " Zambia on behalf of the AGN on Article 6.8 final",
                         "submission_entity": "Zambia on behalf of the African Group of Negotiators (AGN)",
                         "submission_language": "English",
@@ -7580,6 +6924,13 @@
             "submissions": {
                 "Party": [
                     {
+                        "submission_name": " G77_SBs_56_ACE Dialogue",
+                        "submission_entity": "G77 and China",
+                        "submission_language": "English",
+                        "submission_date": "07/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206071129---G77_SBs_56_ACE Dialogue.pdf"
+                    },
+                    {
                         "submission_name": " LDC Submission_ACE_20220411",
                         "submission_entity": "Senegal on behalf of the Least Developed Countries (LDCs) Group",
                         "submission_language": "English",
@@ -7770,6 +7121,13 @@
                 ],
                 "NAO": [
                     {
+                        "submission_name": " SB 2022 CLEAR submission",
+                        "submission_entity": "CLEAR Environmental",
+                        "submission_language": "English",
+                        "submission_date": "07/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206071204---SB 2022 CLEAR submission.pdf"
+                    },
+                    {
                         "submission_name": " UKSSN Submission to Action for Climate Empowerment",
                         "submission_entity": "(UK Schools Sustainability Network",
                         "submission_language": "English",
@@ -7815,6 +7173,20 @@
             "mandate": "Decision 19/CMA.1, paragraph 19: requested the Chairs of the Subsidiary Body for Scientific and Technological Advice and the Subsidiary Body for Implementation to issue a call for the inputs referred to in paragraphs 36 and 37 of the same decision, taking into account that such inputs should be submitted at least three months before their consideration in the technical assessment;",
             "submissions": {
                 "Party": [
+                    {
+                        "submission_name": null,
+                        "submission_entity": null,
+                        "submission_language": "English",
+                        "submission_date": "07/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206071136---AOSIS_CC GST.pdf"
+                    },
+                    {
+                        "submission_name": null,
+                        "submission_entity": null,
+                        "submission_language": "English",
+                        "submission_date": "05/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206050832---G77 and China input to GST.pdf"
+                    },
                     {
                         "submission_name": null,
                         "submission_entity": null,
@@ -9307,6 +8679,13 @@
                 ],
                 "NGO": [
                     {
+                        "submission_name": " 202205122306",
+                        "submission_entity": "Women's Environment and Development Organization (WEDO) on behalf of Women and Gender Constituency",
+                        "submission_language": "English",
+                        "submission_date": "02/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206022250---202205122306---WGC_Submission on GAP Progress.pdf"
+                    },
+                    {
                         "submission_name": " Oxfam GAP submission CP26 Dec20",
                         "submission_entity": "Oxfam International on behalf of Oxfam International",
                         "submission_language": "English",
@@ -9539,10 +8918,56 @@
                     }
                 ],
                 "Observer State": [],
-                "UN": [],
+                "UN": [
+                    {
+                        "submission_name": " WMO Submission_Article 6_2022-03-31",
+                        "submission_entity": "World Meteorological Organization (WMO)",
+                        "submission_language": "English",
+                        "submission_date": "05/06/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202206050918---WMO Submission_Article 6_2022-03-31.pdf"
+                    }
+                ],
                 "IGO": [],
                 "NGO": [],
                 "NAO": [],
+                "Elections Chairs and Coordinators": []
+            }
+        },
+        {
+            "issue": "Actions and plans in pursuit of economic diversification that have co-benefits in the form of emission reductions, adaptation to the impacts of climate change and response measures",
+            "deadline": "31/03/2022",
+            "title": "Further information from Parties concerned and other Parties on actions and plans in pursuit of economic diversification that have co-benefits in the form of emission reductions, adaptation to the impacts of climate change and response measures.",
+            "mandate": "Decision 24/CP.18, paragraph 2.",
+            "submissions": {
+                "Party": [],
+                "Observer State": [],
+                "UN": [],
+                "IGO": [
+                    {
+                        "submission_name": " Submission on Economic Diversification and Co-Benefits_V3 RT",
+                        "submission_entity": "Regional Community Forestry Training Center for Asia and the Pacific (RECOFTC)",
+                        "submission_language": "English",
+                        "submission_date": "13/12/2021",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202112131046---Submission on Economic Diversification and Co-Benefits_V3 RT.pdf"
+                    },
+                    {
+                        "submission_name": " Submission on Economic Diversification and Co-Benefits_V4",
+                        "submission_entity": "Regional Community Forestry Training Center for Asia and the Pacific (RECOFTC) on behalf of The Regional Community Forestry Training Center for Asia and the Pacific (RECOFTC)",
+                        "submission_language": "English",
+                        "submission_date": "08/10/2021",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202110081008---Submission on Economic Diversification and Co-Benefits_V4.pdf"
+                    }
+                ],
+                "NGO": [],
+                "NAO": [
+                    {
+                        "submission_name": " Natural Economic Direct Carbon Capture System",
+                        "submission_entity": "Steel Wood Industries FZCO (Dubai Branch)",
+                        "submission_language": "English",
+                        "submission_date": "11/03/2020",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202003111830---Natural Economic Direct Carbon Capture System .pdf"
+                    }
+                ],
                 "Elections Chairs and Coordinators": []
             }
         },
@@ -10210,7 +9635,15 @@
                     }
                 ],
                 "Observer State": [],
-                "UN": [],
+                "UN": [
+                    {
+                        "submission_name": " UNDRR Contribution to the GGA",
+                        "submission_entity": "United Nations Office for Disaster Risk Reduction (UNDRR) on behalf of UN Office for Disaster Risk Reduction (UNDRR)",
+                        "submission_language": "English",
+                        "submission_date": "19/05/2022",
+                        "submission_url": "https://www4.unfccc.int/sites/SubmissionsStaging/Documents/202205190823---UNDRR Contribution to the GGA.pdf"
+                    }
+                ],
                 "IGO": [],
                 "NGO": [],
                 "NAO": [],
