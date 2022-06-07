@@ -31,7 +31,7 @@ LOG_PATH = (
 def deploy_firefox(
     path_to_geckodriver: str or None = "resources/geckodriver",
     headless: bool = HEADLESS,
-    **kwargs
+    **kwargs,
 ) -> webdriver.Firefox:
     """
     launches a firefox browser instance
@@ -43,7 +43,7 @@ def deploy_firefox(
         executable_path=path_to_geckodriver,
         options=firefox_ops,
         service_log_path=LOG_PATH,
-        **kwargs
+        **kwargs,
     )
     return driver
 
@@ -201,6 +201,10 @@ def write_to_csv(submissions_data: list, data_dir: str = "data") -> None:
     for issue in submissions_all:
         if "submissions" in issue:
             # add the data collection metadata
+            new_keys = [
+                f"issue_{_}" if _ not in ["issue", "submissions"] else _ for _ in issue
+            ]
+            issue = {k: v for k, v in zip(new_keys, issue.values())}
             issue = {**issue, **submissions_data}
             issue_specific_submissions = issue.pop("submissions")
             for (
