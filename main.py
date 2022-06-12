@@ -107,12 +107,14 @@ def visit_main_page(driver: webdriver.Firefox) -> None:
     i = 0
     while not minimum_of_submissions_sanity_check(driver, MIN_SUBMISSIONS_SANITY_CHECK):
         _visit_main_page(driver)
-        time.sleep(LONG_SLEEP)
         i += 1
         if i > MAX_RETRIES:
             raise ValueError(
                 "Web server is loading a very small number of documents, data is not trust worthy"
             )
+        else:   
+            time.sleep(LONG_SLEEP)
+            
 
 
 def _open_submission_panel(
