@@ -196,7 +196,7 @@ def find_text_element(
         pass
 
 
-def _parse_submissions(driver: webdriver.Firefox) -> None:
+def _parse_submissions(driver: webdriver.Firefox) -> list:
     """Parse a submission div element"""
     submission_grids = driver.find_elements(
         By.XPATH,
