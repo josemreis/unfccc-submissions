@@ -11,7 +11,7 @@ pip3 install -r requirements.txt
 2. If missing, download geckodriver
 
 ```bash3
-python3 prepare.py
+python3 scripts/geckodriver.py
 ```
 
 3. Run
